@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name: "Alpha"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/images/info_gene.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Genup alpha's blog"
   location: "South Korea"
   email:
@@ -281,5 +281,9 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fa-solid fa-book"
 
 date_format: "%B %d, %Y"

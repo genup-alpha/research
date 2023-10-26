@@ -3,7 +3,6 @@ layout: single
 title: "공지사항/버튼/유튜브 사용법"
 categories: coding
 tag: [blog] # 여러개 tag 달고 싶을 때 사용법 => tag: [tag1, tag2, ...]
-toc: true
 typora-root-url: ../
 author_profile: false
 sidebar:
