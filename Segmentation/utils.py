@@ -9,6 +9,6 @@ CLASS_ID_TO_RGB = {
 }
 
 
-def save_model(model_state, model_name, save_dir="./trained_model"):
+def save_model(model_state, model_name, save_dir="/home/club8080/Downloads/trained_model"):
     os.makedirs(save_dir, exist_ok=True)
     torch.save(model_state, os.path.join(save_dir, model_name))
